@@ -1,6 +1,6 @@
 {
-	"main_picture" : "/media/img/members.jpg",
-	"logo" : "/media/img/logo.png",
+	"main_picture" : "media/img/members.jpg",
+	"logo" : "media/img/logo.png",
 	"band_name" : "Deep Purple",
 	"local": "Citibank Hall",
 	"date": "30/02/2019",
