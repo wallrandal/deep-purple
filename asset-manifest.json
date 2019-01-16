@@ -1,15 +1,15 @@
 {
-  "main.css": "/deep-purple/static/css/main.8fb11f0d.chunk.css",
-  "main.js": "/deep-purple/static/js/main.45f25544.chunk.js",
-  "main.js.map": "/deep-purple/static/js/main.45f25544.chunk.js.map",
+  "main.css": "/deep-purple/static/css/main.f684d420.chunk.css",
+  "main.js": "/deep-purple/static/js/main.2d0f1f26.chunk.js",
+  "main.js.map": "/deep-purple/static/js/main.2d0f1f26.chunk.js.map",
   "static/js/1.916b373c.chunk.js": "/deep-purple/static/js/1.916b373c.chunk.js",
   "static/js/1.916b373c.chunk.js.map": "/deep-purple/static/js/1.916b373c.chunk.js.map",
   "runtime~main.js": "/deep-purple/static/js/runtime~main.555d6178.js",
   "runtime~main.js.map": "/deep-purple/static/js/runtime~main.555d6178.js.map",
-  "static/css/main.8fb11f0d.chunk.css.map": "/deep-purple/static/css/main.8fb11f0d.chunk.css.map",
+  "static/css/main.f684d420.chunk.css.map": "/deep-purple/static/css/main.f684d420.chunk.css.map",
   "static/media/logo.png": "/deep-purple/static/media/logo.e18642ee.png",
   "static/media/members.jpg": "/deep-purple/static/media/members.742dd754.jpg",
   "index.html": "/deep-purple/index.html",
-  "precache-manifest.537b0e8ae8ddacb6547f9d720b364758.js": "/deep-purple/precache-manifest.537b0e8ae8ddacb6547f9d720b364758.js",
+  "precache-manifest.2b22261cf8560e42c727acaf6cfb7d18.js": "/deep-purple/precache-manifest.2b22261cf8560e42c727acaf6cfb7d18.js",
   "service-worker.js": "/deep-purple/service-worker.js"
 }
