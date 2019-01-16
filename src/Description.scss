@@ -1,0 +1,40 @@
+.Description {
+	width: 50vw;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	&__content {
+		margin-top: 7vh;
+		margin-bottom: 7vh; 
+		width: 15vw;
+		background-color: black;
+		text-align: center;
+		padding: 1vw;
+		border-radius: 7px;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		cursor: pointer;
+		opacity: .6;
+		transition: 0.3s;
+		a {
+			color: white;
+		}
+
+		&:hover {opacity: 1}
+	}
+}
+
+@media only screen and (max-width: 600px) {
+  .Description {
+	width: 100%;
+	&__content {
+		margin-top: 10vh;
+		margin-bottom: 10vh;
+		width: 60vw;
+		padding: 2vw;
+		font-size: 4vh;
+	}
+}
+
+}

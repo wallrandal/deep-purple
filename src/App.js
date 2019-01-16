@@ -1,25 +1,33 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import logo from './media/img/logo.png';
+import members from './media/img/members.jpg';
+import './App.scss';
+import { Description } from './Description';
+// import axios from 'axios';
+
 
 class App extends Component {
+  // componentDidMount() {
+  //   axios.get(`https://drive.google.com/file/d/1qYXLwxbNiFbQZRlMMQxUYq35MzHulauO/view`)
+  //     .then(res => {
+  //       console.log(res)
+  //     })
+  // }
+
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <div className="App__background" >
+          <div className="App__background__content" >
+            <div className="App__background__content__title">
+                <img src={logo} />
+            </div>
+            <div className="App__background__content__header" >
+              <img src={members} />
+            </div>
+            <Description />
+          </div>
+        </div>
       </div>
     );
   }

@@ -1,0 +1,63 @@
+.App {
+  background-color: black;
+  &__background {
+    &__content {
+      width: 100%;
+      background-color: white;
+      &__header {
+        width: 50vw;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        img {
+          width: inherit;
+        }
+      }
+
+      &__title {
+        background-color: white;
+        img {
+          padding: 2vh;
+          width: 20vw;
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .App {
+    &__background {
+      &__content {
+        width: 100%;
+        height: 200px; 
+        &__header {
+          width: 100%;
+          height: 200px; 
+          position: relative;
+          img {
+            width: inherit; 
+          }
+        }
+
+        &__title {
+          background-color: white;
+          img {
+            padding: 2vh;
+            width: 60vw;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+          }
+        }
+        &__shadow {
+          height: 200px;
+        }
+      }
+    }
+  }
+}
