@@ -1,15 +1,13 @@
 {
-  "main.css": "/deep-purple/static/css/main.db08e580.chunk.css",
-  "main.js": "/deep-purple/static/js/main.a37b2fb3.chunk.js",
-  "main.js.map": "/deep-purple/static/js/main.a37b2fb3.chunk.js.map",
-  "static/js/1.ac9ae1ed.chunk.js": "/deep-purple/static/js/1.ac9ae1ed.chunk.js",
-  "static/js/1.ac9ae1ed.chunk.js.map": "/deep-purple/static/js/1.ac9ae1ed.chunk.js.map",
+  "main.css": "/deep-purple/static/css/main.3a48592d.chunk.css",
+  "main.js": "/deep-purple/static/js/main.4da0c512.chunk.js",
+  "main.js.map": "/deep-purple/static/js/main.4da0c512.chunk.js.map",
+  "static/js/1.f739feb7.chunk.js": "/deep-purple/static/js/1.f739feb7.chunk.js",
+  "static/js/1.f739feb7.chunk.js.map": "/deep-purple/static/js/1.f739feb7.chunk.js.map",
   "runtime~main.js": "/deep-purple/static/js/runtime~main.555d6178.js",
   "runtime~main.js.map": "/deep-purple/static/js/runtime~main.555d6178.js.map",
-  "static/css/main.db08e580.chunk.css.map": "/deep-purple/static/css/main.db08e580.chunk.css.map",
-  "static/media/logo.png": "/deep-purple/static/media/logo.e18642ee.png",
-  "static/media/members.jpg": "/deep-purple/static/media/members.742dd754.jpg",
+  "static/css/main.3a48592d.chunk.css.map": "/deep-purple/static/css/main.3a48592d.chunk.css.map",
   "index.html": "/deep-purple/index.html",
-  "precache-manifest.578d690a118bdfa2347b9b8757532dbf.js": "/deep-purple/precache-manifest.578d690a118bdfa2347b9b8757532dbf.js",
+  "precache-manifest.022d7a7187dc9e22296679b166e17a8a.js": "/deep-purple/precache-manifest.022d7a7187dc9e22296679b166e17a8a.js",
   "service-worker.js": "/deep-purple/service-worker.js"
 }
