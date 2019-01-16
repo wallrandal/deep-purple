@@ -1,6 +1,15 @@
 {
 	"main_picture" : "/media/img/members.jpg",
 	"logo" : "/media/img/logo.png",
-	"band_name" : "Deep Purple"
+	"band_name" : "Deep Purple",
+	"local": "Citibank Hall",
+	"date": "30/02/2019",
+	"time": "21h",
+	"sectors": {
+		"Pista": "200",
+		"Pista Premium": "450",
+		"Cadeira": "150",
+		"Camarote": "300"
+	}
 }
 
