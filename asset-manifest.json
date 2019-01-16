@@ -1,13 +1,13 @@
 {
-  "main.css": "/deep-purple/static/css/main.3a48592d.chunk.css",
-  "main.js": "/deep-purple/static/js/main.4da0c512.chunk.js",
-  "main.js.map": "/deep-purple/static/js/main.4da0c512.chunk.js.map",
-  "static/js/1.f739feb7.chunk.js": "/deep-purple/static/js/1.f739feb7.chunk.js",
-  "static/js/1.f739feb7.chunk.js.map": "/deep-purple/static/js/1.f739feb7.chunk.js.map",
+  "main.css": "/deep-purple/static/css/main.41013b4f.chunk.css",
+  "main.js": "/deep-purple/static/js/main.e5d5221d.chunk.js",
+  "main.js.map": "/deep-purple/static/js/main.e5d5221d.chunk.js.map",
+  "static/js/1.fbfa9ac1.chunk.js": "/deep-purple/static/js/1.fbfa9ac1.chunk.js",
+  "static/js/1.fbfa9ac1.chunk.js.map": "/deep-purple/static/js/1.fbfa9ac1.chunk.js.map",
   "runtime~main.js": "/deep-purple/static/js/runtime~main.555d6178.js",
   "runtime~main.js.map": "/deep-purple/static/js/runtime~main.555d6178.js.map",
-  "static/css/main.3a48592d.chunk.css.map": "/deep-purple/static/css/main.3a48592d.chunk.css.map",
+  "static/css/main.41013b4f.chunk.css.map": "/deep-purple/static/css/main.41013b4f.chunk.css.map",
   "index.html": "/deep-purple/index.html",
-  "precache-manifest.022d7a7187dc9e22296679b166e17a8a.js": "/deep-purple/precache-manifest.022d7a7187dc9e22296679b166e17a8a.js",
+  "precache-manifest.db84aeda8c142902778385f16da17bd4.js": "/deep-purple/precache-manifest.db84aeda8c142902778385f16da17bd4.js",
   "service-worker.js": "/deep-purple/service-worker.js"
 }
