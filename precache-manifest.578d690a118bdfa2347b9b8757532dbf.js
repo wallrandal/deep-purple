@@ -12,19 +12,19 @@ self.__precacheManifest = [
     "url": "/deep-purple/static/js/runtime~main.555d6178.js"
   },
   {
-    "revision": "2d0f1f26f530237183a4",
-    "url": "/deep-purple/static/js/main.2d0f1f26.chunk.js"
+    "revision": "a37b2fb3ece3ea66a0d8",
+    "url": "/deep-purple/static/js/main.a37b2fb3.chunk.js"
   },
   {
-    "revision": "916b373cfef80c85a28b",
-    "url": "/deep-purple/static/js/1.916b373c.chunk.js"
+    "revision": "ac9ae1edcdde807d9986",
+    "url": "/deep-purple/static/js/1.ac9ae1ed.chunk.js"
   },
   {
-    "revision": "2d0f1f26f530237183a4",
-    "url": "/deep-purple/static/css/main.f684d420.chunk.css"
+    "revision": "a37b2fb3ece3ea66a0d8",
+    "url": "/deep-purple/static/css/main.db08e580.chunk.css"
   },
   {
-    "revision": "06de4fe75bfb55f30d30cc6b2938da6c",
+    "revision": "a638e4f65857c07d4a7765799ca67bf2",
     "url": "/deep-purple/index.html"
   }
 ];
