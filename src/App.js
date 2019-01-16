@@ -1,29 +1,49 @@
 import React, { Component } from 'react';
-import logo from './media/img/logo.png';
-import members from './media/img/members.jpg';
 import './App.scss';
 import { Description } from './Description';
-// import axios from 'axios';
 
 
 class App extends Component {
-  // componentDidMount() {
-  //   axios.get(`https://drive.google.com/file/d/1qYXLwxbNiFbQZRlMMQxUYq35MzHulauO/view`)
-  //     .then(res => {
-  //       console.log(res)
-  //     })
-  // }
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      teste: null,
+      logo: null,
+      main_picture: null
+    };
+  }
+
+  fetchData() {
+    fetch(`./Band2.json`)
+      .then(response => response.json())
+      .then(data =>
+        this.setState({
+          teste: 'testinho',
+          logo: data.logo,
+          main_picture: data.main_picture
+        })
+      )
+      .catch(error => this.setState({ error, isLoading: false }));
+  }
+
+  componentDidMount() {
+    this.fetchData();
+  }
 
   render() {
+    const { teste, logo, main_picture} = this.state;
     return (
-      <div className="App">
+      <div className="App"> 
         <div className="App__background" >
           <div className="App__background__content" >
             <div className="App__background__content__title">
                 <img src={logo} />
             </div>
             <div className="App__background__content__header" >
-              <img src={members} />
+              <img src={main_picture} />
+            </div>
+            <div>
             </div>
             <Description />
           </div>
