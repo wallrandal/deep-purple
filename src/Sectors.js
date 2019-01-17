@@ -6,15 +6,24 @@ import './Sectors.scss';
 export class Sectors extends Component {
   constructor(props) {
     super(props);
+    this.i = [];
+    this.maskMoney = this.maskMoney.bind(this);
+  }
+
+  maskMoney = (value) => {
+    return parseFloat(value).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL',  minimumFractionDigits: 2})
   }
 
   render() {
   	const state = {
-	galleryItems: this.props.sectors.map((i) => (
+      currentIndex: 0,
+	     galleryItems: this.props.sectors.map((sector) => (
 		<div className="Sector">
-			<div>{i.name}</div>
-			<div>{i.value}</div>
-			<div>Quantidade: </div>
+			<div>Tipo: {sector.name}</div>
+      <div className="Sector__quantity">
+          <input type="number" defaultValue="0" min="0"name="quantity[]" />
+      </div>
+			<div>Valor Unitário: {this.maskMoney(sector.value)}</div>
 		</div>
 		)),
 	}
@@ -26,8 +35,7 @@ export class Sectors extends Component {
 	        fadeOutAnimation={true}
 	        mouseDragEnabled={true}
 	        disableAutoPlayOnAction={true}
-	        onSlideChange={this.onSlideChange}
-	        onSlideChanged={this.onSlideChanged}
+          infinite={false}
 	      />
     );
   }
@@ -38,13 +46,4 @@ export class Sectors extends Component {
     1024: { items: 3 },
   }
 
-  onSlideChange(e) {
-    console.debug('Item`s position during a change: ', e.item)
-    console.debug('Slide`s position during a change: ', e.slide)
-  }
-
-  onSlideChanged(e) {
-    console.debug('Item`s position after changes: ', e.item)
-    console.debug('Slide`s position after changes: ', e.slide)
-  }
 }

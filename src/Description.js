@@ -17,9 +17,11 @@ export class Description extends Component {
   render() {
     return (
       <div className="Description">
-      	<div className="Description__button">
-      		<a onClick={this.handleClick} >Compre Agora! </a>
-      	</div>
+        <a onClick={this.handleClick} >
+      	 <div className="Description__button">
+      	   	Compre Agora!
+      	   </div>
+        </a>
       	<div className="Description__local">
       		<div className="Description__local_name">{this.props.local}</div>
       		<div className="Description__local_date">{this.props.date}</div>
@@ -27,6 +29,7 @@ export class Description extends Component {
       	</div>
 
       	<div className="Description__sectors" id="sectors">
+          <div className="Description__sectors__title">Escolha a Melhor Opção!</div>
            <Sectors sectors={this.props.sectors} />
       	</div>
       </div>
