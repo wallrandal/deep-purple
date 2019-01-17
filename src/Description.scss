@@ -38,6 +38,8 @@
 
 	&__sectors {
 		scroll-behavior: smooth;
+		display: flex;
+		justify-content: space-between;
 	}
 }
 

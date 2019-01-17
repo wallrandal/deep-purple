@@ -5,11 +5,23 @@
 	"local": "Citibank Hall",
 	"date": "30/02/2019",
 	"time": "21h",
-	"sectors": {
-		"Pista": "200",
-		"Pista Premium": "450",
-		"Cadeira": "150",
-		"Camarote": "300"
-	}
+	"sectors": [
+		{
+			"name": "Pista",
+			"value": "200"
+		},
+		{
+			"name": "Pista Premium",
+			"value": "450"
+		},
+		{
+			"name": "Cadeira",
+			"value": "150"
+		},
+		{
+			"name": "Camarote",
+			"value": "300"
+		}
+	]
 }
 
