@@ -21,7 +21,8 @@ export class Sectors extends Component {
 		<div className="Sector">
 			<div>Tipo: {sector.name}</div>
       <div className="Sector__quantity">
-          <input type="number" defaultValue="0" min="0"name="quantity[]" />
+        <label  for="quantity">Qtde:</label>
+          <div className="Sector__quantity__input"><input type="number" defaultValue="0" min="0"name="quantity[]" /></div>
       </div>
 			<div>Valor Unitário: {this.maskMoney(sector.value)}</div>
 		</div>
