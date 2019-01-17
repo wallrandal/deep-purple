@@ -1,7 +1,7 @@
 {
   "main.css": "/deep-purple/static/css/main.15f6123e.chunk.css",
-  "main.js": "/deep-purple/static/js/main.a6cfee3e.chunk.js",
-  "main.js.map": "/deep-purple/static/js/main.a6cfee3e.chunk.js.map",
+  "main.js": "/deep-purple/static/js/main.13176e54.chunk.js",
+  "main.js.map": "/deep-purple/static/js/main.13176e54.chunk.js.map",
   "static/css/1.e781469c.chunk.css": "/deep-purple/static/css/1.e781469c.chunk.css",
   "static/js/1.ad922cdf.chunk.js": "/deep-purple/static/js/1.ad922cdf.chunk.js",
   "static/js/1.ad922cdf.chunk.js.map": "/deep-purple/static/js/1.ad922cdf.chunk.js.map",
@@ -10,6 +10,6 @@
   "static/css/1.e781469c.chunk.css.map": "/deep-purple/static/css/1.e781469c.chunk.css.map",
   "static/css/main.15f6123e.chunk.css.map": "/deep-purple/static/css/main.15f6123e.chunk.css.map",
   "index.html": "/deep-purple/index.html",
-  "precache-manifest.1093f4e509b2a31d63715d46c1da7a0f.js": "/deep-purple/precache-manifest.1093f4e509b2a31d63715d46c1da7a0f.js",
+  "precache-manifest.d3933f0f6afb1ad57283f3352f4b5522.js": "/deep-purple/precache-manifest.d3933f0f6afb1ad57283f3352f4b5522.js",
   "service-worker.js": "/deep-purple/service-worker.js"
 }
