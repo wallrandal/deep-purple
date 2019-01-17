@@ -41,6 +41,31 @@
 			}
 		}
 	}
+
+	&__submit {
+		&__button {
+			margin-top: 7vh;
+			margin-bottom: 7vh; 
+			width: 18vw;
+			font-size: 1.3vw;
+			background-color: black;
+			text-align: center;
+			padding: 1vw;
+			border-radius: 7px;
+			margin-left: auto;
+			font-weight: bold;
+			margin-right: auto;
+			display: block;
+			cursor: pointer;
+			opacity: 1;
+			color: white;
+			border: none;
+			transition: 0.3s;
+			margin-bottom: 4vw;
+
+			&:hover {opacity: .6}
+		}
+	}
 }
 
 @media only screen and (max-width: 600px) {
@@ -66,6 +91,17 @@
 					font-size: 8vw;
 					line-height: 5vh;
 				}
+			}
+		}
+
+		&__submit {
+			margin-bottom: 10vh;
+			width: 100%;
+			&__button {		
+				width: 50%;
+				padding: 2vw;
+				font-size: 7vw;
+				&:hover {opacity: 1}
 			}
 		}
 	}

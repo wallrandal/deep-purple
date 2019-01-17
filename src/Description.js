@@ -18,9 +18,9 @@ export class Description extends Component {
     return (
       <div className="Description">
         <a onClick={this.handleClick} >
-      	 <div className="Description__button">
+      	 <button className="Description__button">
       	   	Compre Agora!
-      	   </div>
+      	   </button>
         </a>
       	<div className="Description__local">
       		<div className="Description__local_name">{this.props.local}</div>

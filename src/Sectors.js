@@ -8,10 +8,15 @@ export class Sectors extends Component {
     super(props);
     this.i = [];
     this.maskMoney = this.maskMoney.bind(this);
+    this.submit = this.submit.bind(this);
   }
 
   maskMoney = (value) => {
     return parseFloat(value).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL',  minimumFractionDigits: 2})
+  }
+
+  submit() {
+    alert('ok')
   }
 
   render() {
@@ -21,7 +26,7 @@ export class Sectors extends Component {
 		<div className="Sector">
 			<div>Tipo: {sector.name}</div>
       <div className="Sector__quantity">
-        <label  for="quantity">Qtde:</label>
+        <label  htmlFor="quantity">Qtde:</label>
           <div className="Sector__quantity__input"><input type="number" defaultValue="0" min="0"name="quantity[]" /></div>
       </div>
 			<div>Valor Unitário: {this.maskMoney(sector.value)}</div>
@@ -29,15 +34,20 @@ export class Sectors extends Component {
 		)),
 	}
     return (
-      	 <AliceCarousel
-	        items={state.galleryItems}
-	        responsive={this.responsive}
-	        buttonsDisabled={true}
-	        fadeOutAnimation={true}
-	        mouseDragEnabled={true}
-	        disableAutoPlayOnAction={true}
-          infinite={false}
-	      />
+      	 <div>
+           <AliceCarousel
+            items={state.galleryItems}
+            responsive={this.responsive}
+            buttonsDisabled={true}
+            fadeOutAnimation={true}
+            mouseDragEnabled={true}
+            disableAutoPlayOnAction={true}
+            infinite={false}
+          />
+          <div className="Sector__submit">
+            <button onClick={this.submit} className="Sector__submit__button">Finalizar Compra</button>
+          </div>
+         </div>
     );
   }
 
