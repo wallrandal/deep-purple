@@ -1,13 +1,13 @@
 {
-  "main.css": "/deep-purple/static/css/main.9db01fb8.chunk.css",
-  "main.js": "/deep-purple/static/js/main.11279f76.chunk.js",
-  "main.js.map": "/deep-purple/static/js/main.11279f76.chunk.js.map",
-  "static/js/1.fbfa9ac1.chunk.js": "/deep-purple/static/js/1.fbfa9ac1.chunk.js",
-  "static/js/1.fbfa9ac1.chunk.js.map": "/deep-purple/static/js/1.fbfa9ac1.chunk.js.map",
-  "runtime~main.js": "/deep-purple/static/js/runtime~main.555d6178.js",
-  "runtime~main.js.map": "/deep-purple/static/js/runtime~main.555d6178.js.map",
-  "static/css/main.9db01fb8.chunk.css.map": "/deep-purple/static/css/main.9db01fb8.chunk.css.map",
-  "index.html": "/deep-purple/index.html",
-  "precache-manifest.20e8fc44ac7e19ada040410fb7d6374c.js": "/deep-purple/precache-manifest.20e8fc44ac7e19ada040410fb7d6374c.js",
-  "service-worker.js": "/deep-purple/service-worker.js"
+  "main.css": "/deep-purplinho/static/css/main.9db01fb8.chunk.css",
+  "main.js": "/deep-purplinho/static/js/main.d54c0e86.chunk.js",
+  "main.js.map": "/deep-purplinho/static/js/main.d54c0e86.chunk.js.map",
+  "static/js/1.fbfa9ac1.chunk.js": "/deep-purplinho/static/js/1.fbfa9ac1.chunk.js",
+  "static/js/1.fbfa9ac1.chunk.js.map": "/deep-purplinho/static/js/1.fbfa9ac1.chunk.js.map",
+  "runtime~main.js": "/deep-purplinho/static/js/runtime~main.fd30edab.js",
+  "runtime~main.js.map": "/deep-purplinho/static/js/runtime~main.fd30edab.js.map",
+  "static/css/main.9db01fb8.chunk.css.map": "/deep-purplinho/static/css/main.9db01fb8.chunk.css.map",
+  "index.html": "/deep-purplinho/index.html",
+  "precache-manifest.0598cf5b91a25e3986da214e07e108b0.js": "/deep-purplinho/precache-manifest.0598cf5b91a25e3986da214e07e108b0.js",
+  "service-worker.js": "/deep-purplinho/service-worker.js"
 }
