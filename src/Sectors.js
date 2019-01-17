@@ -16,7 +16,7 @@ export class Sectors extends Component {
   }
 
   submit() {
-    alert('ok')
+    alert('Compra Finalizada!')
   }
 
   render() {
@@ -46,6 +46,9 @@ export class Sectors extends Component {
           />
           <div className="Sector__submit">
             <button onClick={this.submit} className="Sector__submit__button">Finalizar Compra</button>
+          </div>
+          <div className="Sector__footer">
+            Feito com ❤ por Wallace Randal
           </div>
          </div>
     );
